@@ -712,7 +712,7 @@ body {
 .drawer__send-button {
   align-self: flex-end; }
   .drawer__send-button::before {
-    content: 'Отправить'; }
+    content: 'Отправить' !important; }
 
 .modal__feedback--close {
   opacity: 0;
