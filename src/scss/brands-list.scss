@@ -1,0 +1,64 @@
+.brands-expander__icon--unactive {
+  vertical-align: middle;
+}
+.brands-expander__icon--active {
+  vertical-align: middle;
+  transform: rotate(180deg);
+}
+
+.brand-list__elem {
+  background-color: #fff;
+  border: #eaeaea 1px solid;
+  border-radius: 8px;
+  position: relative;
+  display: block;
+  width: 224px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  min-width: 0;
+}
+
+.brand-list__elem.item1 {
+  background-image: url(../img/Lenovo.png);
+}
+
+.brand-list__elem.item2 {
+  background-image: url(../img/acer.png);
+}
+
+.brand-list__elem.item3 {
+  background-image: url(../img/Bosch.png);
+}
+
+.brand-list__elem.item4 {
+  background-image: url(../img/apple.png);
+}
+
+.brand-list__elem.item5 {
+  background-image: url(../img/Samsung.png);
+}
+
+.brand-list__elem.item6 {
+  background-image: url(../img/SONY.png);
+}
+
+.brand-list__elem.item7 {
+  background-image: url(../img/ViewSonic.png);
+}
+
+.brand-list__elem.item8 {
+  background-image: url(../img/HP.png);
+}
+
+.brand-list__elem.item9 {
+  background-image: url(../img/Lenovo.png);
+}
+
+.brand-list__elem.item10 {
+  background-image: url(../img/acer.png);
+}
+
+.brand-list__elem.item11 {
+  background-image: url(../img/Samsung.png);
+}

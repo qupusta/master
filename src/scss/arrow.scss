@@ -1,0 +1,11 @@
+.arrow {
+  content: '';
+  display: inline-block;
+  position: relative;
+  border: solid #FF3E79;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  transform: rotate(-45deg) translate(60%, 180%);
+  cursor: pointer;
+  border-radius: 1.5px 1.5px 1.5px 1.5px;
+}
