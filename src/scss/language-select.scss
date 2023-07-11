@@ -1,0 +1,32 @@
+.footer__language-select {
+  li {
+    list-style: none;
+    display: inline;
+
+    &:focus {
+      color: #7e7e82;
+    }
+  }
+
+  input[type="radio"] {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  input {
+    &:checked+label {
+      color: #7e7e82;
+    }
+  }
+
+  >label {
+    margin-right: 7px;
+    transition: all 0.3s;
+  }
+
+  label {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
