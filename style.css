@@ -626,7 +626,7 @@ body {
 .call__drawer .drawer__send-button {
   align-self: flex-end; }
   .call__drawer .drawer__send-button::before {
-    content: 'Заказать звонок'; }
+    content: 'Отправить'; }
 
 .modal__call--close {
   opacity: 0;
