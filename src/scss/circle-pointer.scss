@@ -1,0 +1,28 @@
+.arrow {
+  content: '';
+  display: inline-block;
+  position: relative;
+  border: solid #FF3E79;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  transform: rotate(-45deg) translate(60%, 180%);
+  cursor: pointer;
+  border-radius: 1.5px 1.5px 1.5px 1.5px;
+}
+
+.circle {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FF3E79;
+  border-radius: 100%;
+  top: calc(50% + 2px);
+  left: calc(85% + 2px);
+  transform: translate(-50%, -50%);
+
+  &:hover {
+    transition: 0.3s;
+    transform: scale(1.06) translate(-50%, -50%);
+  }
+}
